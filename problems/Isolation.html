@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mental Health Center</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/159de306d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidenMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../problems.html">PROBLEMS</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    
+                    <li><a href="../contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i onclick='showMenu()' class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MENTAL HEALTH CENTER</h1>
+            <p>The worlds biggest mental health help platform.
+            </p>
+            <a class="hero-btn" href="">Vist Us to Know More</a>
+        </div>
+
+    </section>
+
+    <!--Course-->
+    <section class="content">
+        <h1>Isolation and Loneliness</h1>
+        
+        <p>Isolation and loneliness are emotional states arising from a lack of social connection. Isolation involves physical separation from others, either voluntarily or involuntarily, limiting social interactions. Loneliness, on the other hand, is a subjective feeling of emptiness or isolation, even when surrounded by people. Both can result from various factors, such as life changes, geographic distance, or social anxiety. Prolonged experiences of isolation and loneliness can have negative impacts on mental health, contributing to conditions like depression and anxiety. Recognizing these feelings is crucial, and efforts to build social connections, engage in community activities, or seek emotional support can help alleviate the effects and promote overall well-being.</p>
+       <h2>How to overcome Isolation and Loneliness?</h2>
+       <p>To overcome isolation and loneliness, prioritize building meaningful social connections. Actively seek opportunities to engage with others through social activities, clubs, or community events. Foster existing relationships by reaching out to friends or family members. Volunteering is a great way to connect with others while contributing to a shared cause. Embrace technology for virtual interactions if physical presence is challenging. Develop hobbies or join groups aligned with personal interests. Seeking professional help through therapy or support groups can provide coping strategies. Establish a routine that includes regular social interactions, exercise, and self-care. Taking small steps, setting realistic expectations, and being patient with oneself are essential in gradually overcoming isolation and loneliness.</p>
+    </section>
+
+    
+
+
+    <!-----Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias qui minima odit aliquam tempora nihil
+            consectetur cupiditate dolor illum rerum. Consequuntur ipsa illum totam odio
+            excepturi, quaerat sint numquam ea!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/labray.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/health.jpg" alt="">
+                <h3>Testy and healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!---- Call To Action --->
+
+    <section class="cta">
+        <h1>Contact Anywhere From the world
+        </h1>
+        <a class='hero-btn' href="">CONTACT US</a>
+    </section>
+
+
+    <!---Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by TU Dublin</p>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = '0'
+
+        }
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

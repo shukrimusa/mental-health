@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mental Health Center</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/159de306d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidenMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../problems.html">PROBLEMS</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    
+                    <li><a href="../contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i onclick='showMenu()' class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MENTAL HEALTH CENTER</h1>
+            <p>The worlds biggest mental health help platform.
+            </p>
+            <a class="hero-btn" href="">Vist Us to Know More</a>
+        </div>
+
+    </section>
+
+    <!--Course-->
+    <section class="content">
+        <h1>Depression</h1>
+        <p>Depression is a mental health condition marked by persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in daily activities. It can lead to changes in appetite, sleep patterns, and energy levels. Individuals may experience difficulty concentrating, feelings of guilt or worthlessness, and, in severe cases, thoughts of self-harm. Depression affects one's overall quality of life and can be caused by a combination of genetic, biological, environmental, and psychological factors. Treatment often involves therapy, medication, and support to help manage symptoms and promote recovery. Early recognition and intervention are crucial for effective depression management.</p>
+         <h2>What signs of depression?</h2>
+         <p>Signs of depression include persistent feelings of sadness, hopelessness, and a lack of interest or pleasure in activities once enjoyed. Changes in sleep patterns, appetite, and energy levels may occur. Concentration difficulties, feelings of guilt or worthlessness, and recurring thoughts of death or suicide are common. Physical symptoms like headaches or digestive issues may manifest. Social withdrawal, irritability, and a sense of emptiness are also indicators. Depression affects daily functioning and can lead to a decline in work or school performance. Recognizing these signs, seeking professional help, and building a support system are crucial for effective management. Early intervention promotes recovery through therapy, medication, and lifestyle changes.</p>
+    </section>
+
+    
+
+
+    <!-----Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias qui minima odit aliquam tempora nihil
+            consectetur cupiditate dolor illum rerum. Consequuntur ipsa illum totam odio
+            excepturi, quaerat sint numquam ea!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/labray.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/health.jpg" alt="">
+                <h3>Testy and healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!---- Call To Action --->
+
+    <section class="cta">
+        <h1>Contact Anywhere From the world
+        </h1>
+        <a class='hero-btn' href="">CONTACT US</a>
+    </section>
+
+
+    <!---Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by TU Dublin</p>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = '0'
+
+        }
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

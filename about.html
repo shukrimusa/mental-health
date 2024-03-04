@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mental Health Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/159de306d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!---Header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidenMenu()"></i>
+                <ul>
+                     <li><a href="index.html">HOME</a></li>
+                     <li><a href="problems.html">PROBLEMS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                   
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i onclick='showMenu()' class="fa-solid fa-bars"></i>
+        </nav>
+
+        <h1>About Us</h1>
+
+    </section>
+
+    <!--About us-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the worlds biggest mental health help platform</h1>
+                <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs. Through our group therapy programs, find solace in shared experiences and collective support. Our thorough mental health assessments guide us in crafting effective and personalized treatment plans. We prioritize creating a safe and non-judgmental space where you can embark on your journey towards emotional resilience and improved mental health. At [Mental Health Center Name], we believe in empowering individuals to navigate life's challenges with strength and resilience, fostering a path to lasting well-being.</p>
+                <a class=" blue-btn hero-btn" href="">EXPLORE NOW</a>
+            </div>
+
+            <div class="about-col">
+                <img src="images/lecturers.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+   
+    <!---Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by TU Dublin</p>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = '0'
+
+        }
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

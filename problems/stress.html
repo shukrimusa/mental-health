@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mental Health Center</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/159de306d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="../images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidenMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                    <li><a href="../problems.html">PROBLEMS</a></li>
+                    <li><a href="../about.html">ABOUT</a></li>
+                    
+                    <li><a href="../contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i onclick='showMenu()' class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MENTAL HEALTH CENTER</h1>
+            <p>The worlds biggest mental health help platform.
+            </p>
+            <a class="hero-btn" href="">Vist Us to Know More</a>
+        </div>
+
+    </section>
+
+    <!--Course-->
+    <section class="content">
+        <h1>Stress</h1>
+        
+        <p>Stress is a natural physiological and psychological response to challenges or demands, often known as stressors, that individuals encounter in their lives. It triggers the body's "fight or flight" mechanism, releasing hormones like cortisol and adrenaline. Common stressors include work pressures, life changes, or unexpected events. While short-term stress can be motivating and help cope with challenges, chronic stress can have negative health effects, impacting sleep, immune function, and mental well-being.
+
+            Physical symptoms of stress may include headaches, muscle tension, and digestive issues. Emotionally, it can lead to anxiety, irritability, or a sense of being overwhelmed. Effective stress management involves adopting coping strategies such as exercise, relaxation techniques, time management, and seeking support. Understanding and addressing the sources of stress can contribute to better overall health and resilience in navigating life's challenges.</p>
+       <h2>What are signs of stress?</h2>
+       <p>Signs of stress include physical symptoms like headaches, muscle tension, and digestive issues. Emotionally, stress can manifest as anxiety, irritability, and a feeling of being overwhelmed. Changes in sleep patterns, appetite, and energy levels may occur. Cognitive symptoms may involve difficulty concentrating and racing thoughts. Behavioral signs include changes in social interaction, withdrawal, or increased use of substances. Chronic stress can negatively impact overall well-being and may contribute to health issues. Recognizing these signs, implementing stress management techniques, and seeking support can help mitigate the effects of stress and promote better mental and physical health.</p>
+    </section>
+
+    
+
+
+    <!-----Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias qui minima odit aliquam tempora nihil
+            consectetur cupiditate dolor illum rerum. Consequuntur ipsa illum totam odio
+            excepturi, quaerat sint numquam ea!</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/labray.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/basketball.jpg" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/health.jpg" alt="">
+                <h3>Testy and healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat, esse harum obcaecati illum
+                    reprehenderit ea deserunt numquam vero corporis eum nemo omnis debitis
+                    expedita officia inventore reiciendis quod sunt?</p>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!---- Call To Action --->
+
+    <section class="cta">
+        <h1>Contact Anywhere From the world
+        </h1>
+        <a class='hero-btn' href="">CONTACT US</a>
+    </section>
+
+
+    <!---Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by TU Dublin</p>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = '0'
+
+        }
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>

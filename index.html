@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Mental Health Center</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/159de306d2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidenMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="problems.html">PROBLEMS</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i onclick='showMenu()' class="fa-solid fa-bars"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>MENTAL HEALTH CENTER</h1>
+            <p>The worlds biggest mental health help platform.
+            </p>
+            <a class="hero-btn" href="">Vist Us to Know More</a>
+        </div>
+
+    </section>
+
+    <!--Course-->
+    <section class="course">
+        <h1>What we Help with?</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam laboriosam assumenda, culpa alias quo optio
+            eum veritatis odio consequuntur tempore!</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Anxiety</h3>
+                
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae consectetur. Minus necessitatibus
+                    eveniet non distinctio. Est iure assumenda placeat?</p>
+                 <a href="problems/anxiety.html"><img src="images/lo" alt="">Read more....</a>
+            </div>
+
+            <div class="course-col">
+                <h3>Depression</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae consectetur. Minus necessitatibus
+                    eveniet non distinctio. Est iure assumenda placeat?</p>
+                     <a href="problems/depression.html"><img src="images/log" alt="">Read more....</a>
+            </div>
+
+            <div class="course-col">
+                <h3>Sadness</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, vitae consectetur. Minus necessitatibus
+                    eveniet non distinctio. Est iure assumenda placeat?</p>
+                     <a href="problems/sadness.html"><img src="images/logo" alt="">Read more....</a>
+            </div>
+        </div>
+        <a href="problems.html">More</a>
+    </section>
+
+    <!----Campus----->
+    <section class="campus">
+        <h1>Our Global Centers</h1>
+        <p>Our mental health centers in Dublin, Cork, and Galway provide compassionate and professional care. Expert teams offer counseling, therapy, and support for various mental health challenges. Conveniently located, our centers strive to create a safe and welcoming environment for individuals seeking mental health assistance in these vibrant Irish cities.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="images/dublin.jpg" alt="">
+                <div class="layer">
+                    <h3>Dublin</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/cork.jpg" alt="">
+                <div class="layer">
+                    <h3>Cork</h3>
+                </div>
+            </div>
+
+            <div class="campus-col">
+                <img src="images/galway.jpg" alt="">
+                <div class="layer">
+                    <h3>Galway</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-----Facilities-->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>At our mental health centers, we offer individual therapy sessions for personalized support, facilitating private discussions. Group therapy programs bring individuals together for shared experiences and support. Our mental health assessments help tailor treatment plans, ensuring personalized and effective care.</p>
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/therap-session.jpg" alt="">
+                <h3>Individual therapy sessions</h3>
+                <p>Individual therapy sessions involve one-on-one meetings between a person and a mental health professional, such as a therapist or counselor, to address and work through personal challenges, emotions, and mental health concerns.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/group-therapy.jpg" alt="">
+                <h3>Group therapy programs</h3>
+                <p>Group therapy programs involve a mental health professional guiding a small group of individuals who share similar concerns. Participants collaborate, share experiences, and receive support in a structured and confidential setting.</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="images/Mental_health_assessments.png" alt="">
+                <h3>Mental health assessments</h3>
+                <p>Mental health assessments involve evaluating an individual's emotional well-being, thoughts, and behaviors. Professionals use standardized tools and interviews to understand and diagnose mental health conditions, aiding in treatment planning.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!---- Call To Action --->
+
+    <section class="cta">
+        <a class='hero-btn' href="contact.html">CONTACT US</a>
+    </section>
+
+
+    <!---Footer-->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Welcome to Mental Health Center, a compassionate haven dedicated to fostering mental well-being. Our expert team of therapists and counselors is committed to providing personalized care, offering individual therapy sessions tailored to your unique needs.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by TU Dublin</p>
+    </section>
+    <!--JavaScript for Toggle Menu-->
+    <script>
+        var navLinks = document.getElementById('navLinks')
+        function showMenu() {
+            navLinks.style.right = '0'
+
+        }
+
+        function hidenMenu() {
+            navLinks.style.right = '-200px'
+        }
+    </script>
+</body>
+
+</html>
