@@ -168,7 +168,9 @@ nav .fa-solid {
     text-align: left;
     padding-top: 25px
 }
-
+.content-col{
+    width: 70%
+}
 .content h1{
     font-size: 30px
 }
@@ -210,6 +212,9 @@ h3 {
         text-align: left;
         width: 95%
       
+    }
+    .content-col{
+        width: 100%
     }
     
 }
@@ -591,7 +596,7 @@ h3 {
 }
 
 .contact-col {
-    flex-basis: 48%;
+    flex-basis: 20%;
     margin-bottom: 30px
 }
 
@@ -627,4 +632,18 @@ h3 {
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+@media(max-width: 700px) {
+    .contact-col div .fa-solid {
+        font-size: 23px;
+       
+    }
+    .contact-col div p {
+        font-size: 12px
+    }
+    
+    .contact-col div h5 {
+        font-size: 15px;
+       
+    }
 }
